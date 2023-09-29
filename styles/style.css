@@ -1,3 +1,33 @@
 .containerFlexOne{
-    background: aqua;
+    display: flex;
+    background-color: black;
+}
+.firstFlex{
+    display: flex;
+        flex: 8;
+        justify-content: space-around;
+        flex-direction: column;
+    
+}
+.secondFlex{
+    display: flex;
+    flex: 2;
+    background-color: gray;
+    flex-flow: column wrap;
+    align-content: space-around;
+}
+.rowOne{
+        display: flex;
+        justify-content: space-around;
+        
+}
+.rowTwo{
+        display: flex;
+        justify-content: space-around;
+        
+}
+.rowThree{
+        display: flex;
+        justify-content: space-around;
+        
 }
