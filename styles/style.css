@@ -1,6 +1,6 @@
 .containerFlexOne{
     display: flex;
-    background-color: black;
+    background-color: gray;
 }
 .firstFlex{
     display: flex;
@@ -12,7 +12,6 @@
 .secondFlex{
     display: flex;
     flex: 2;
-    background-color: gray;
     flex-flow: column wrap;
     align-content: space-around;
 }
